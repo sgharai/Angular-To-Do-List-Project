@@ -1,5 +1,7 @@
 <form class="form" (ngSubmit)="onSubmit()">
-    <input type="text" name="title" [(ngModel)]="title" placeholder="Add Todo...">
-    
-    <input type="submit" value="Submit" class="btn">
+    <input class="input" type="text" name="title" [(ngModel)]="title" placeholder="Add Todo...">
+
+    <div class="control">
+        <button class="button is-primary" type="submit" value="Submit">Submit</button>
+    </div>
 </form>

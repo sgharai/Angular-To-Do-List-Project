@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClientModule, HttpHeaders, HttpClient } from '@angular/common/http';
+import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Todo } from '../models/Todo'
 import { Observable } from 'rxjs';
 
@@ -12,6 +12,7 @@ const httpOptions = {
 @Injectable({
   providedIn: 'root'
 })
+
 export class TodoService {
   todosUrl:string = 'https://jsonplaceholder.typicode.com/todos';
   todosLimit = "?_limit=5"

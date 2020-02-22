@@ -10,3 +10,8 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .title {
+    font-family: 'Pacifico';
+    font-size: 50px;
+  }

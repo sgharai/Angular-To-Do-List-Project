@@ -1,6 +1,52 @@
-<header class="header">
-    <h1>Todo List</h1>
-    <nav>
-        <a routerLink="/">Home </a> | <a routerLink="/about"> About</a>
-    </nav>
-</header>
+  <section class="hero is-primary is-bold is-medium">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active">
+                Home
+              </a>
+              <a class="navbar-item">
+                Examples
+              </a>
+              <a class="navbar-item">
+                Documentation
+              </a>
+              <span class="navbar-item">
+                <a class="button is-primary is-inverted">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          To-Do List
+        </h1>
+      </div>
+    </div>
+  
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a routerLink="/">Home</a></li>
+            <li><a routerLink="/about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
